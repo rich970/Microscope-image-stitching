@@ -8,6 +8,9 @@ Semi-automatic stitching of microscope images obtained by raster scanning across
 - This repeat until all imported images have been stitched. 
 - The final image is thresholded and the area is calculated based on the calibration which defines the pixel to cm conversion.
 
+# How it looks:
+![alt text](https://github.com/rich970/Microscope-image-stitching/blob/master/screenshot.jpg?raw=true)
+
 # Requirments:
 Sys, PyQt5, Numpy, cv2, maplotlib, Skimage.
 
