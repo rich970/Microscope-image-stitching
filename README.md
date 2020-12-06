@@ -6,7 +6,7 @@ Semi-automatic stitching of microscope images obtained by raster scanning across
 - The selected feature is picked out in the primary image using a cross-correlation algorithm (match-template implemented in Skimage)
 - If the user is happy, the two images are stitched together and the next two images are loaded.
 - This repeat until all imported images have been stitched. 
-- The final image is thresholded and the area is calculated.
+- The final image is thresholded and the area is calculated based on the calibration which defines the pixel to cm conversion.
 
 # Requirments:
 Sys, PyQt5, Numpy, cv2, maplotlib, Skimage.
